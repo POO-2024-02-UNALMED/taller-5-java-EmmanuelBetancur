@@ -49,14 +49,14 @@ public class Anfibio extends Animal {
         return "saltar";
     }
 
-    public void crearRana(String nombre, int edad, String genero){
+    public static void crearRana(String nombre, int edad, String genero){
         Anfibio rana = new Anfibio(nombre,edad,"selva",genero,"rojo",true);
-        this.ranas++;
+        ranas++;
     }
 
-    public void crearSalamandra(String nombre, int edad, String genero){
+    public static void crearSalamandra(String nombre, int edad, String genero){
         Anfibio salamadra = new Anfibio(nombre,edad,"selva",genero,"negro y amarillo",false);
-        this.salamandras++;
+        salamandras++;
     }
 
 }    
