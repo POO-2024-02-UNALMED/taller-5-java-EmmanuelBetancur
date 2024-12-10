@@ -84,9 +84,9 @@ public class Animal{
     @Override
     public String toString(){
         String retorno = "Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en " + habitat + " y mi genero es " + genero;
-        if (this.zona != null) {}
+        if (this.zona != null) {
             retorno += ", la zona en la que me ubico es " + this.zona.getNombre() + ", en el "+ zona.getZoo().getNombre() + ".";
-        }
+        } return retorno;
 
     }
 
