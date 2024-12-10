@@ -40,8 +40,7 @@ public class Zoologico {
 
     //creacion de metodos agregar zonas y cantidad total
 
-    public void agregarZonas(String nombre){
-        Zona nzona =  new Zona(nombre, this);
+    public void agregarZonas(Zona nzona){
         zonas.add(nzona);
     }
 
