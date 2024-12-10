@@ -46,9 +46,8 @@ public class Zona{
 //Creacion de metodo agregar animales
 
 
-    public void agregarAnimales(String nombre, int edad, String habitat, String genero){
-        Animal nanimal = new Animal(nombre, edad, habitat, genero, this);
-        animales.add(nanimal);
+    public void agregarAnimales(Animal animal){
+        this.animales.add(animal);
     }
 
 //Creacion de metodo Cantidad animales
