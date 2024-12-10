@@ -12,7 +12,11 @@ public class Zoologico {
         this.nombre = nom;
         this.ubicacion = ubi;
         this.zonas = new ArrayList<Zona>();
-    } 
+    }
+
+    public Zoologico(){
+        this.zonas = new ArrayList<Zona>();
+    }
 
     //Creacion de metodos get
 

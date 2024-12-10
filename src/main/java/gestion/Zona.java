@@ -16,8 +16,6 @@ public class Zona{
     }
 
     public Zona(){
-        this.nombre = null;
-        this.zoo = null;
         this.animales = new ArrayList<Animal>();
     }
 
