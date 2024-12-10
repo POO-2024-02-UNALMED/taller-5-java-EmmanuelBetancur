@@ -6,10 +6,10 @@ import zooAnimales.Animal;
 //Defiicion de clase y sus atributos
 public class Zona{
     private String nombre;
-    private Zoologico zoo;
+    private gestion.Zoologico zoo;
     private ArrayList<Animal> animales;
 
-    public Zona(String nom, Zoologico zooZona){
+    public Zona(String nom, gestion.Zoologico zooZona){
         this.nombre = nom;
         this.zoo = zooZona;
         this.animales =  new ArrayList<Animal>();
@@ -23,7 +23,7 @@ public class Zona{
 
 //Creacion de metodos get
 
-    public Zoologico getZoo(){
+    public gestion.Zoologico getZoo(){
         return zoo;
     }
 
@@ -41,7 +41,7 @@ public class Zona{
         this.nombre = nombre;
     }
     
-    public void setZoo(Zoologico zoo){
+    public void setZoo(gestion.Zoologico zoo){
         this.zoo = zoo;
     }
 
