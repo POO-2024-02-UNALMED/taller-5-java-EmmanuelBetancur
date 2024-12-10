@@ -24,7 +24,7 @@ public class Zona{
 //Creacion de metodos get
 
     public Zoologico getZoo(){
-        return this.zoo;
+        return zoo;
     }
 
     public String getNombre(){
