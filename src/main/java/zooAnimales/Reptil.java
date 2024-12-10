@@ -21,7 +21,7 @@ public class Reptil extends Animal {
     }
 
     //creacion de metodos get
-    public String GetColorEscamas(){
+    public String getColorEscamas(){
         return this.colorEscamas;
     }
     

@@ -76,7 +76,7 @@ public class Animal{
 
     //creacion de metodos totalportipo, toString y movimiento
 
-    public String totalPorTipo(){
+    public static String totalPorTipo(){
 
         return "Mamiferos: " + Mamifero.cantidadMamiferos() + "\nAves:" + Ave.cantidadAves() + "\nReptiles: " + Reptil.cantidadReptiles() + "\nPeces: " + Pez.cantidadPeces() + "\nAnfibios: " + Anfibio.CantidadAnfibios();
     }
