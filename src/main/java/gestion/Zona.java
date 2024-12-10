@@ -29,7 +29,7 @@ public class Zona{
         return this.nombre;
     }
 
-    public ArrayList getAnimales(){
+    public ArrayList<Animal> getAnimales(){
         return this.animales;
     }
 
@@ -41,6 +41,10 @@ public class Zona{
     
     public void setZoo(gestion.Zoologico zoo){
         this.zoo = zoo;
+    }
+
+    public void setAnimales(ArrayList<Animal> animales){
+        this.animales = animales;
     }
 
 //Creacion de metodo agregar animales
